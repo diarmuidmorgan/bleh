@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html>
+<head>
+     <meta charset="UTF-8"> 
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--from w3 schools-->
+    
+    </head>
+    
+<body>
+    
+    
+    <header >
+    
+   <div align="center"class="nav-image">  
+           
+         
+    
+    
+        
+        <ul class="navbar">
+            <li style="display:inline; left:0;"><a id="confetti" href='index.html'>Confetti<span id="dot" style="color:white">.</span></a></li>
+            <li style="display:inline" class="dropdown"><span class="dropbtn" id="nav2">Menu</span>
+                <div class="dropdown_menu">
+                <a href="about.html">About</a>
+                <a href="chapters.html">Chapters</a>
+                    <a href=images.html>Images</a>
+                    <a href=purchase.html>Purchases</a>
+                    <a href=blog.html>Blogs</a></div></li>
+            </ul>
+    </div>
+        
+    
+
+    
+    </header>
+    
+    <!----- the below div and script flashes quotations on the index page and also changes the colour in the "." beside "Confetti" on the nav bar. I read about the setInterval() function on stack overflow, but wrote this script myself --->
+    <div id="textbox">
+        
+       <h1 id='message' style="font-family:times; color:black;"></h1>
+        <script>
+var count = 0
+document.getElementById('message').innerHTML=('"Not a novel of our times. Nor a novel of anytime in particular. But a novel, yes, a novel....."')
+setInterval(function(){
+
+    var text = ['"Nauseating heights of pretension"     -   Anonymous reader   ', '"Confetti is many things. But a novel it is not. No, this heap of papers... it is like dust..."', '"Ineluctable....."'];
+    document.getElementById('message').innerHTML=text[count];
+    count+=1;
+    if (count==text.length-1){
+        count=0;
+    }
+    if(count%2==0){
+        document.getElementById('dot').style.color="lightblue";
+    }
+    else{document.getElementById('dot').style.color="white";}
+
+
+
+
+
+
+}, 6000);
+            
+
+    </script>
+        </div>    
+        
+        
+
+  <section>
+    
+    <!----left column--->
+    <div class="column">
+    
+        <div class="post">
+            
+            <img class="post_img" src="images/seaview.jpg">
+            <a class="post" href="chapter65.html" class="post"><h1>The Future</h1></a>
+            <p class="post">10th March</p>
+            <p>The future, it turns out, is exactly like the present, only shittier, more expensive, and further submerged beneath the sea</p>
+        
+        </div>
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/lauri.jpg">
+            <a class="post" href="lauri.html"><h1>Hansel and Gretel>
+                </h1></a><p class="post">3rd September</p>
+        
+        </div>
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/view.jpg">
+            <a href="chapter%201.html"class="post"><h1>Overture</h1></a>
+            <p style="color:white">December 1999</p>
+            <p class="post">We were all the names in history. We were born at the end of history. I do not know where they found you. I remember little of the rites and circumstances...</p>
+        
+        </div>
+    
+    </div>
+    
+    
+    <!-----right column---->
+    
+    <div class="column">
+        
+        <div class="post">
+            
+            
+            <img class="post_img" src="images/lujiazui2.jpg">
+            <a href="chapter60.html" class="post"><h1>Tsunamis</h1></a>
+            <p class="post">June 79</p>
+            <p>...when the tsunamis came we were at a party and we hated absolutely everyone in sight. You spoke. You did not speak to me. You laughed you kjsakfakaf</p>
+        
+        
+        </div>
+        
+    <div class="post">
+            
+            <img class="post_img" src="images/ultimatemachine.jpg">
+        <a href="ultimatemachine.html" class="post"><h1>Pointless machines</h1></a>
+        <p class="post">Unknown date</p>
+        
+        
+        </div>
+        
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/auboitdesouffle.jpg">
+            <a class="post" href="chapter7.html"><h1>(Soft morning City)</h1></a>
+            <p class="post">February 2015</p>
+        <p>You woke me with your warmth, your body tracing tentative spaces txit the wine spills, the unruly bedsheets, the uneven terrain I had shaped in my sleep..................</p>
+        
+        </div>
+ 
+        
+        </div>
+   
+    
+    
+    
+    
+    
+   </section>  
+    
+    
+    
+    
+    
+    
+    <footer>
+        <div class="footer">
+    <p>Copyright Diarmuid Morgan 2017</p>
+            </div>
+    </footer>
+    
+   
+    
+    </body>
+
+
+
+</html>

@@ -1,0 +1,30 @@
+var data =[
+{img:"images/asdsdas.jpg", date:"178214", heading:"jsanfkjan", text:"", content:""},
+];
+
+
+
+function indexPage(){
+	col1='';
+	col2='';
+	var col = 0;
+	
+	for (i in data){
+
+		if (col==01){
+			col1+="<div class="blogbox"><src ="\" + data.img+"\"><br><h1>"+data.heading+"</h1><p>"+i.text+"</p><br></div>";
+		
+			col++;}
+		else{
+			col2+="<div class="blogbox"><src ="\" + data.img+"\"><br><h1>"+data.heading+"</h1><p>"+i.text+"</p><br></div>";
+			col=0 }
+	}
+	document.getElementById('col1').innerHtml=col1
+	document.getElementById('col2').innerHtml=col2
+}
+
+
+
+
+indexPage()
+

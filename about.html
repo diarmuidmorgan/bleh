@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html>
+<head>
+     <meta charset="UTF-8"> 
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--from w3 schools-->
+    
+    </head>
+    
+<body>
+    
+    
+    <header >
+    
+   <div align="center"class="nav-image">  
+           
+         
+    
+    
+        
+        <ul class="navbar">
+            <li style="display:inline; left:0;"><a id="confetti" href='index.html'>Confetti<span id="dot" style="color:white">.</span></a></li>
+            <li style="display:inline" class="dropdown"><span class="dropbtn" id="nav2">Menu</span>
+                <div class="dropdown_menu">
+                <a href="about.html">About</a>
+                <a href="chapters.html">Chapters</a>
+                    <a href=images.html>Images</a>
+                    <a href=purchase.html>Purchases</a>
+                    <a href=blog.html>Blogs</a></div></li>
+            </ul>
+    </div>
+        
+    
+
+    
+    </header>
+    
+    
+    
+    <div class="columnAbout1" width="60%">
+        
+        <div class="post" id="hide1">
+        
+            <h1 >It is the end of history...</h1><p style="color:white"> Sea levels are rising at a truly alarming rate. The protagonists "I", "You", and "Matthew", have used the proceeds of their "Life Boat Empire" to seclude themselves in the relative luxury of a 70th floor apartment building.......</p><br><p style="color:white">At over 100000+ pages "Confetti" is a sprawling unfinished, unpublished, unfinishable and unpublishable work of questionable intent. Please purchase chapters <a href='purchase.html'>here</a> or add yourself to the mailing list below</p>
+            
+         <!---- I copied my form straight from w3 schools and changed it a little - tried to add a script so that it would actually do something, but with mixed results.. but... I can't get the script to actually do what it's told-->
+            <form>
+  Name:<br>
+  <input type="text" name="name"><br>
+  Email:<br>
+  <input type="text" name="email">
+<button id='button1'>Submit</button>
+            </form>
+       
+                <script>
+                
+                document.getElementById('button1').onclick=function(){document.getElementbyId("hide2").style.visibility="hidden";}
+            </script>
+ </div>
+        
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
+    <div class="columnAbout2" id="hide2"  width="30%">
+        <h1>About the author</h1>
+        <img width="100%" src="images/lollypop.jpg">
+        <p>(The author as a young man eating an icecream)</p>
+        <p style="color:white">The author is unwillingly to disclose much information about himself</p>
+        <p>He does however possess, if not actually maintain, a <a href="https://twitter.com/diarmuid_mor">Twitter</a> and was, in a previous life, a failed <a href="https://longjaw.bandcamp.com/">electronic musician</a></p>
+        
+    </div> 
+        
+        
+        
+        
+
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+        <div class="footer">
+    <p>Copyright Diarmuid Morgan 2017</p>
+            </div>
+    </footer>
+    
+   
+    
+    </body>
+
+    
+    
+  
+
+
+</html>

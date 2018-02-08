@@ -1,0 +1,12 @@
+#nav1{display:inline}
+#nav2{display:none}
+
+
+@media only screen and (min-width: 768px) {
+    
+    #nav2{display:inline;}
+    
+    #nav1{display:none;}
+    
+    
+}

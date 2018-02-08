@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html>
+<head>
+     <meta charset="UTF-8"> 
+    <title>Overture</title>
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--from w3 schools-->
+    
+    </head>
+    
+<body>
+    
+    
+    <header >
+    
+   <div align="center"class="nav-image">  
+           
+         
+    
+    
+        
+        <ul class="navbar">
+            <li style="display:inline; left:0;"><a id="confetti" href='index.html'>Confetti<span id="dot" style="color:white">.</span></a></li>
+            <li style="display:inline" class="dropdown"><span class="dropbtn" id="nav2">Menu</span>
+                <div class="dropdown_menu">
+                <a href="about.html">About</a>
+                <a href="chapters.html">Chapters</a>
+                    <a href=images.html>Images</a>
+                    <a href=purchase.html>Purchases</a>
+                    <a href=blog.html>Blogs</a></div></li>
+            </ul>
+    </div>
+        
+    
+
+    
+    </header>;
+    
+    <div class="contentCol1">    
+    <div class="contentbox">
+    <h1>Ultimate Machine</h1>
+        
+        <iframe class="video" src="https://www.youtube.com/embed/kt3csIz3hEk" frameborder="0" allowfullscreen></iframe>
+        
+        <p1 class="contentbox"> "I cannot leave Bell Labs without mentioning one more device
+which I saw there, and which haunts me as it haunts everyone who
+has ever seen it in action. It is the Ultimate Machine—the End of
+the Line. Beyond it there is Nothing. It sits on Claude Shannon’s
+desk driving people mad. Nothing could look simpler. It is merely
+a small wooden casket the size and shape of a cigar box, with
+a single switch on one face. When you throw the switch, there
+is an angry, purposeful buzzing. The lid slowly rises, and from
+beneath it emerges a hand. The hand reaches down, turns the
+switch off, and retreats into the box. With the finality of a closing
+coffin, the lid snaps shut, the buzzing ceases, and peace reigns
+once more. The psychological effect, if you do not know what to
+expect, is devastating. There is something unspeakably sinister
+about a machine that does nothing—absolutely nothing—except
+switch itself off. Distinguished scientists and engineers have taken
+days to get over it. Some have retired to professions which still
+had a future, such as basket weaving, beekeeping, truffle hunting,
+or water divining."</p1>
+                 <p>-Arthur C. Clarkev 1958</p>
+
+            
+
+
+
+<br><br><br>
+    </div>
+        
+        </div>
+    
+    <div class = "contentCol2" id='scroll'> 
+        <!-----original script taken from https://www.w3schools.com/jsref/event_onscroll.asp and modified to fix col position. 
+
+    **original***
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+        document.getElementById("myImg").className = "slideUp";
+}-->
+        <script>
+            
+        
+        window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("scroll").style.position = "fixed";
+        document.getElementById("scroll").style.top = "0";
+        
+        
+        console.log('fixed');
+    }
+        else{
+            document.getElementById("scroll").style.position = "fixed";
+            document.getElementById("scroll").style.top = "";
+        }
+    
+}
+
+        
+        
+        
+        </script>
+        <br><br>
+        
+        <div class="adbox">
+        
+            <a href="chapter7.html"><img class="adbox" width="80%" src="images/ashtray.jpg"></a>
+            <p>Chapter 56</p>
+        
+        
+        </div>
+        
+        
+        <div class="adbox">
+        
+            <a href="chapter7.html"><img class="adbox" width="80%" src="images/go3.jpg"></a>
+            <p>Chapter 56</p>
+        
+        
+        </div>
+        
+        
+        <div class="adbox">
+        
+            <a href="chapter7.html"><img class="adbox" width="80%" src="images/building.jpg"></a>
+            <p>Chapter 56</p>
+        
+        
+        </div>
+    
+        
+    
+    
+    
+    </div>
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+        <div class="footer">
+    <p>Copyright Diarmuid Morgan 2017</p>
+            </div>
+    </footer>
+    
+   
+    
+    </body>
+
+
+
+</html>

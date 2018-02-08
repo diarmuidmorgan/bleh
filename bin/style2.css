@@ -1,0 +1,154 @@
+*{box-sizing: border-box}
+
+
+#blogpost{padding:10px; float:left; border:4px solid yellow}
+    
+    
+    
+    
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+   
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ALL OF THIS FROM W3 SCHOOLS THEN READJUSTED */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_menu {
+    display: none;
+    right:0;
+    position: absolute;
+    width:100%;
+    background-color: hotpink;
+    border:5px solid yellow;
+    
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown_menu a {
+    color: yellow;
+    
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_menu a:hover {color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:aqua;
+}
+
+body{color:yellow; background-color:hotpink;}
+
+#nav1{display:none}
+#nav2{display:inline}
+#confetti{display:inline; font-family:times; font-size:20px; padding:0px}
+
+@media only screen and (min-width: 400px){
+    
+    #confetti{display:inline; font-family:times; font-size:50px;}
+}
+    
+
+@media only screen and (min-width: 768px) {
+    
+    #nav2{display:none;}
+    
+    #nav1{display:inline;}
+    
+    #confetti{display:inline; font-family:times; font-size:70px;}
+    
+    
+    
+}
+
+#nav{display:inline;}
+
+li a{
+    color:yellow;
+    text-decoration:none;
+    
+    
+    
+    
+    
+}
+
+li a:hover{color: white;
+    
+    
+    
+    
+}
+
+li a:active{background-color:bisque}
+
+
+.button {color:yellow;
+        background-color:palevioletred;
+        border-color: yellow;
+    border:2px;}
+
+
+
+table, td, th{border: 2px solid yellow; width:80%}
+
+th{height:100px}
+
+table{border-collapse: collapse;}
+
+/*basic footer straight copy paster from https://www.w3schools.com/howto/howto_css_fixed_footer.asp. I changed the around a little bit - for instance removing the 'position' attribute */
+
+footer {
+    ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color:ghostwhite;
+    color: black;
+    font-size:8px
+    text-align: center;
+}
+
+input[type=text]{
+    padding:20px;
+    border:6px solid yellow;
+    width:80%;
+}
+
+
+.blogpost div {width:100%; padding:10%; border:2px solid lightgrey;
+}
+    
+    
+
+.blogpost p1{color:yellow; font-size:40px}
+
+.blogpost p2{color:white; font-size:20;}
+
+
+
+

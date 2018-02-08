@@ -1,0 +1,301 @@
+/*---------Content page definitions------*/  
+.adCol2{width:100%; float:left; display:none; position:relative;}
+.adCol1{width:100%; float:left; display:inline; position:relative;}
+.contentCol1{width:100%; float:left;display:inline}
+.contentCol2{width:100%; float:left; display:inline; position:relative;}
+.adBox{width:100%; float:left; padding:20px; position:relative; display:inline;}
+
+div.contentbox{float:left;width:80%; padding-left:10%; padding-right:10%}
+h.contentbox{color:yellow; font-size:35px}
+p1.contentbox{color:white; font-size:15px}
+p.contentbox{color:black; font-size: 15px;}
+
+
+@media only screen and (min-width: 500px){
+    .adCol2{width:20%; float:left; display:inline;position:relative;}
+    .adCol1{width:40%; float:left; display:none; position:relative;}
+    h.contentbox{color:yellow; font-size:50px}
+p1.contentbox{color:white; font-size:20px}
+p.contentbox{color:black; font-size: 20px;}
+.contentCol1{width:78%; float:left;display:inline; position:static}
+    .contentCol2{width:20%; float:left; display:inline;position:relative;}
+    .adBox{display:block; position:fixed;}
+    
+
+
+@media only screen and (min-width: 768px) {h.contentbox{color:yellow; font-size:60px}
+p1.contentbox{color:white; font-size:20px}
+p.contentbox{color:black; font-size: 20px;}
+    .contentCol1{width:78%; float:left;display:inline}
+.contentCol2{width:20%; float:left; display:inline; position:abs;}
+    adBox{display:block;}
+    
+        }
+
+/*------------------------------*/
+
+
+
+
+
+
+#table{display:none;}
+.chapterTable{display:none;}
+table{width:100%; display:none;}
+img.chapterTable{width:80%;}
+table, th {min-height:100px; vertical-align: middle; font-size:5px;} 
+#chapterWrapper{display:inline; width:90%;}
+.chapterImage{width:100%;}
+th{border:1px solid yellow;}
+
+
+
+@media only screen and (min-width: 500px){
+#table{display:inline;}
+.chapterTable{display:inline;}
+#chapterWrapper{display:none;}
+th{font-size:15px; border:2px solid yellow;}}
+#scroll{display:inline;}
+    
+    
+@media only screen and (min-width: 768px) {th{font-size:25px;}
+     .chapterWrapper{visibility:none;}}
+
+
+
+ /* --------------------images.html/Gallery definitions----------------------- */
+    
+    
+    .galleryBig{display:none; 
+        float:left;width:80%; 
+        padding-left:10%; 
+        padding-right:10%}
+
+.galleryColumn{width:30%; padding:10px; float:left; display:inline;}
+    
+    @media only screen and (min-width: 500px){.galleryBig{display:block;}
+        }
+    
+    .gallery-boxBig{float:left; 
+        width:100%; 
+        }
+    
+    img.gallery-boxBig{width:100%;}
+
+.gallerySmall{display:block; width:100%; float:left;}
+img.gallerySmall{width:100%; padding:12px;}
+h1.gallerySmall{font-size:30px;}
+p.gallerySmall{color:white}
+@media only screen and (min-width: 500px){.gallerySmall{display:none;}
+        }
+
+
+
+
+
+
+/*----------------- Definitions that appear on every single page!----------------- */
+*{box-sizing:border-box;}
+
+body{ color:yellow; background-color:hotpink;}
+
+/* header code8*/
+.nav1{display:none}
+
+a.nav1{
+    color:yellow;
+    text-decoration:none;}
+
+a.nav1:hover{color: white;}
+
+a.nav1:active{background-color:bisque}
+
+.nav2{display:inline}
+
+.nav-image{display:block; width:100%; background-image:url('images/nav.jpg');}
+
+ul.navbar{list-style-type: none; border:5px solid yellow;}
+#confetti{text-decoration: line-through; left:0;}
+
+
+
+#confetti{display:inline; font-family:times; color:yellow; font-size:25px; padding:0px}
+
+#confetti:hover{color:white;}
+/* took the following '@media only' definitions froms w3schools. I changed them around to fit my page, but the '@media....' parts are straight copy pastes */
+
+
+
+
+@media only screen and (min-width: 400px){
+    
+    #confetti{display:inline; font-family:times; font-size:50px;}
+    
+    .index div{ width:50%}
+    
+    a.nav1{display:inline}
+      }
+   .
+    
+    
+    
+
+    
+
+@media only screen and (min-width: 768px) {
+    
+    #nav2{display:none;}
+    a.nav1 {display:inline}
+    li.nav1 {display:inline}
+    #confetti{display:inline; font-family:times; font-size:70px}
+    
+}
+
+
+/* DROPDOWN MENU My dropdown menu css is taken straight from w3 schools, and then modified to fit in with the website style */
+.dropbtn {
+   
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ALL OF THIS FROM W3 SCHOOLS THEN READJUSTED */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_menu {
+    display: none;
+    right:0;
+    position: absolute;
+    width:100%;
+    background-color: palevioletred;
+    border:5px solid yellow;
+    
+    
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown_menu a {
+    color: yellow;
+    
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_menu a:hover {color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:aqua;
+}
+
+/*took this code from the 'fixed footer' page on w3 schools. Got rid of the 'fixed' position, changed display to inline and replaced the background colour with a background image :) */
+.footer{
+    display:inline-block;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+    font-size:10px;
+     text-align: center;}
+
+
+
+
+
+
+
+/*----------Menu page definitions----------------------------*/
+
+.column{color:yellow; width:96%; float:left; display:inline; font-size:15px;}
+
+#textbox{display:none; width:100%; height:150px; float:left; background-image:url(images/panorama.jpg); border: 3px solid yellow;}
+
+ 
+
+@media only screen and (min-width: 500px){
+        .column{font-size:15px; width:45%; margin:10px; margin-bottom:20px;}
+    
+#textbox{display:inline;}}
+
+@media only screen and (min-width: 768px) {
+        .column{color:yellow; width:45%; margin:10px; margin-bottom:20px; float:left; display:inline; font-size:25px;} 
+#textbox{display:inline;}}
+
+
+
+.post{ width:80%; padding:10%; margin:5%; 
+    
+}
+
+p.post{color:white; font-size:15px}
+
+a.post{font-size:30px; text-decoration:none;color:yellow; font-family:serif}
+
+a.post:hover{color:white;}
+
+
+.post_img{width:90%; }
+    
+h.post{width:70%}
+
+
+
+
+
+
+/*--------_Table definitions for "chapters.html--------*/
+
+/*-----About page definitions------*/
+.columnAbout1{color:yellow; width:96%; float:left; display:inline; font-size:15px;}
+.columnAbout2{color:yellow; width:96%; float:left; display:inline; font-size:25px;}
+    
+
+@media only screen and (min-width: 500px){
+        .columnAbout1{font-size:15px; width:60%; margin:10px; margin-bottom:20px;}
+    .columnAbout2{font-size:15px; width:30%; margin:10px; margin-bottom:20px;}
+    
+#textbox{display:none}}
+
+@media only screen and (min-width: 768px) {
+        .columnAbout1{color:yellow; width:58%; margin:10px; margin-bottom:20px; float:left; display:inline; font-size:25px;}
+    columnAbout2{font-size:15px; width:41%%; margin:10px; margin-bottom:20px;}
+#textbox{display:inline}}
+
+
+/*-----------Form definitions for about.html--------------*/
+input[type=text]{border: 2px solid yellow;
+border-radius:1px; padding:10px; width:50%;}
+
+
+/*---- video, for blog.html----*/
+.video{width:100%; height:200px;}
+
+
+
+@media only screen and (min-width: 500px){
+    .video{width:100%; height:300px}}
+    
+@media only screen and (min-width: 768px) {
+    .video{width:100%; height:400px}}
+    
+    
+    
+    
+   

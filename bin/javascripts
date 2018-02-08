@@ -1,0 +1,18 @@
+<!--- I found out about the setInterval() function on stackexchange, but I feel the below script is basically mine -->
+<script>
+var count = 0
+setInterval(function(){
+
+    var text = ['In the Future, there were sky trains and there were sky cities', 'The sea levels were rising grimly year on year, and in response our economies behaved like small animals on crack', 'Every five years we were forced to vote on whether or not', 'we we wanted to continue the moratorium on democracy', 'and we had learned long ago that it was better for everyone to just say yes', 'Our cities were beautiful and sad –a pathetic thrusting of hope above the water.'];
+    document.getElementById('message').innerHtml=text[count];
+    count+=1;
+    if (count==5){
+        count=0;
+    }
+
+
+
+
+
+
+}, 1000);

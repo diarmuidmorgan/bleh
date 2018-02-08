@@ -1,0 +1,139 @@
+
+
+
+
+body{box-sizing:border-box; color:yellow; background-color:hotpink;}
+
+/* header code8*/
+.nav1{display:none}
+
+a.nav1{
+    color:yellow;
+    text-decoration:none;}
+
+a.nav1:hover{color: white;}
+
+a.nav1:active{background-color:bisque}
+
+.nav2{display:inline}
+
+.nav-image{display:block; width:100%; background-image:url('images/nav.jpg');}
+
+
+
+#confetti{display:inline; font-family:times; color:yellow; font-size:25px; padding:0px}
+
+#confetti:hover{color:white;}
+/* took the following '@media only' definitions froms w3schools. I changed them around to fit my page, but the '@media....' parts are straight copy pastes */
+
+
+
+
+@media only screen and (min-width: 400px){
+    
+    #confetti{display:inline; font-family:times; font-size:50px;}
+    
+    .index div{ width:50%}
+    
+    a.nav1{display:inline}
+      }
+   .
+    
+    
+    
+
+    
+
+@media only screen and (min-width: 768px) {
+    
+    #nav2{display:none;}
+    a.nav1 {display:inline}
+    li.nav1 {display:inline}
+    #confetti{display:inline; font-family:times; font-size:70px}
+    
+}
+
+
+/* DROPDOWN MENU My dropdown menu css is taken straight from w3 schools, and then modified to fit in with the website style*/
+.dropbtn {
+   
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ALL OF THIS FROM W3 SCHOOLS THEN READJUSTED */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown_menu {
+    display: none;
+    right:0;
+    position: absolute;
+    width:100%;
+    background-color: palevioletred;
+    border:5px solid yellow;
+    
+    
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown_menu a {
+    color: yellow;
+    
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown_menu a:hover {color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color:aqua;
+}
+/*----------BLOG CONTENT----------------------------*/
+
+.column{color:yellow; width:100%; float:left; display:inline; font-size:15px}
+
+#textbox{display:none; width:100%; height:150px; float:left; background-image:url(images/panorama.jpg); border: 3px solid yellow;}
+
+ 
+
+@media only screen and (min-width: 500px){
+        .column{font-size:15px; width:50%;}
+#textbox{display:none}}
+
+@media only screen and (min-width: 768px) {
+        .column{color:yellow; width:50%; float:left; display:inline; font-size:25px;} 
+#textbox{display:inline}}
+
+
+
+.post{ width:90%; padding:5%; margin:10px;
+    
+}
+
+.post_img{width:90%; }
+    
+.post h{width:70%}
+    
+    
+    
+}
+
+/* for list items*/
+

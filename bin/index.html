@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--from w3 schools-->
+    
+    </head>
+    
+<body>
+    
+    
+    <header >
+    
+   <div align="center"class="nav-image">  
+           
+         
+    
+    
+        
+        <ul style="list-style-type: none; border:5px solid yellow;">
+            <li style="display:inline; left:0;"><a id="confetti" href='index.html' style="text-decoration: line-through; left:0;">Confetti<span id="dot" style="color:white">.</span></a></li>
+            <li style="display:inline" class="dropdown"><span class="dropbtn" id="nav2">Menu</span>
+                <div class="dropdown_menu">
+                <a href="about.html">About</a>
+                <a href="chapters.html">Chapters</a>
+                    <a href=images.html>Images</a>
+                    <a href=purchase.html>Purchases</a>
+                    <a href=blog.html>Blogs</a></div></li>
+            </ul>
+    </div>
+        
+    
+
+    
+    </header>
+    
+    <div id="textbox">
+        
+       <h1 id='message' style="font-family:times; color:black;"></h1>
+        <script>
+var count = 0
+document.getElementById('message').innerHTML=('but that was just the spirit of your age')
+setInterval(function(){
+
+    var text = ['In the Future, there were sky trains and there were sky cities', 'The sea levels were rising grimly year on year', 'in response our economies behaved like small animals on crack', 'Every five years we were forced to vote on whether or not', 'we we wanted to continue the moratorium on democracy', 'and we had learned long ago that it was better for everyone to just say yes', 'Our cities were beautiful and sad –a pathetic thrusting of hope above the water.'];
+    document.getElementById('message').innerHTML=text[count];
+    count+=1;
+    if (count==text.length-1){
+        count=0;
+    }
+    if(count%2==0){
+        document.getElementById('dot').style.color="lightblue";
+    }
+    else{document.getElementById('dot').style.color="white";}
+
+
+
+
+
+
+}, 1000);7
+            
+
+    </script>
+        </div>    
+        
+        
+
+  <section>
+    
+    
+    <div class="column">
+    
+        <div class="post">
+            
+            <img class="post_img" src="images/seaview.jpg">
+         <h1>Chapter 65: The Future<span style="color:white">October 25th</span></h1>
+            <p>The future, it turns out, is exactly like the present, only shittier, more expensive, and further submerged beneath the sea</p>
+        
+        </div>
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/persona.jpg">
+         <h1>Timelessness<span style="color:white">October 1st</span></h1>
+        
+        </div>
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/catward.jpg">
+         <h1>Chuxi<span style="color:white">February 1979</span></h1>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    <div class="column">
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/lujiazui2.jpg">
+             <h1>Chapter:Tsunamis<span style="color:white">December 1999</span></h1>
+            <p>...when the tsunamis came we were at a party and we hated absolutely everyone in sight. You spoke. You did not speak to me. You laughed you kjsakfakaf</p>
+        
+        
+        </div>
+    <div class="post">
+            
+            <img class="post_img" src="images/ashtray.jpg">
+         <h1>Some heading</h1>
+        
+        
+        </div>
+        
+        
+        <div class="post">
+            
+            <img class="post_img" src="images/auboitdesouffle.jpg">
+        <h1>Soft Morning City<span style="color:white">January 1st</span></h1>
+        <p>You woke me with your warmth, your body tracing tentative spaces txit the wine spills, the unruly bedsheets, the uneven terrain I had shaped in my sleep..................</p>
+        
+        </div>
+ 
+        
+        </div>
+   
+    
+    
+    
+    
+    
+   </section>  
+    
+    
+    
+    
+    
+    
+    <footer>
+    <p style="font-size:15px">Copyright Diarmuid Morgan 2017</p>
+    </footer>
+    
+   
+    
+    </body>
+
+
+
+</html>
